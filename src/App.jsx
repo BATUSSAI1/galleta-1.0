@@ -31,6 +31,7 @@ const oStyle= {
              nextImage={setRandomImage}
      />
      </div>
+     <a href="https://github.com/BATUSSAI1/galleta-1.0" target="_blank"><b>Repositorio</b></a>
     </div> 
   )
 }
