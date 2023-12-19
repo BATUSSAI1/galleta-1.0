@@ -9,7 +9,7 @@ const Button = ({nextPhrase, nextImage}) => {
       nextImage(phrasesRandom(image))
     }
   return (
-    <button className="Next" onClick={handleNextPharese}>Next Phrase</button>
+    <button className="Next" onClick={handleNextPharese}>PUSH!</button>
   )
 }
 export default Button

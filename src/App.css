@@ -15,7 +15,7 @@
    gap:10em;
    padding-bottom: 5rem;
    color: white;
- 
+   text-shadow: 20px 15px 7px cornflowerblue
 }
 
 .card{
@@ -23,7 +23,7 @@
    max-width: 50rem;
    -webkit-box-shadow: -4px -1px 19px 29px rgba(14,137,237,1);
    -moz-box-shadow: -4px -1px 19px 29px rgba(14,137,237,1);
-   box-shadow: -4px -1px 19px 29px rgba(14,137,237,1);
+   box-shadow: -4px -1px 19px 29px rgb(14, 69, 113);
    font-size: 1.5em;
    display: flex;
    justify-content: center;
@@ -37,21 +37,20 @@
     display: grid;
     grid: 10rem;
     line-height: 1.4;
-    margin-bottom: 1rem;
+    margin: 1rem;
     color: white;
-    
+    -webkit-text-stroke: 1.5px black;
 
 }
 
 .Next{
-    display: block;
-    margin-top: 1rem;
     background-color: transparent;
-    padding: 0.5em;
-    border:none;
     font-weight: 200;
-    font-size: 1.2em;
-    color: white
-    
- 
+    font-size: 2em;
+    color: white;
+    border: none;
+    margin-top: 2rem;
+    -webkit-text-stroke: 2px black;
+
 }
+

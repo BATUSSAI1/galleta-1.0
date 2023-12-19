@@ -25,6 +25,8 @@ const oStyle= {
       <h1 className= 'title' >Galleta de la Fortuna</h1>
       <div className='card'>
      <PhrasesComp nameRandom={Randomphrase}/>
+     </div>
+     <div>
      <Button nextPhrase={setRandomphrase}
              nextImage={setRandomImage}
      />
